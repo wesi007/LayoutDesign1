@@ -1,34 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css">
-        <title>Mulatu Astatke - Tezeta (Nostalgia)</title>
-    </head>
-    <body>
-        <header>
-            <div class="logo">
-                <img src="your-logo.png" alt="Logo">
-            </div>
-            <h1>MY STORY</h1>
-        </header>
-        <nav>
-            <ul>
-                <li><a href="#">Word1</a></li>
-                <li><a href="#">Word2</a></li>
-                <li><a href="#">Word3</a></li>
-                <li><a href="#">Word4</a></li>
-                <li><a href="#">Word5</a></li>
-                <li><a href="#">Word6</a></li>
-                <li><a href="#">Word7</a></li>
-            </ul>
-        </nav>
-        <main>
-            <section class="image-info">
-                <img src="your-image.jpg" alt="Image">
-                <p>Your text info goes here.</p>
-            </section>
-        </main>
-    </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mulatu Astatke - Tezeta (Nostalgia)</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="Photos/3b9db574329c5d3c63ec402605d8ba47.jpg" alt="Logo" width=500 height=500>
+        </div>
+
+
+        <div class="heading">
+            <h1>Mulatu Astatke - Tezeta (Nostalgia)</h1>
+
+        </div>
+
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#" onclick="showContent('Photos/maxresdefault.jpg', 'Text for Image 1')">PEACE</a></li>
+            <li><a href="#"
+                    onclick="showContent('Photos/3b9db574329c5d3c63ec402605d8ba47.jpg', 'Text for Image 2')">GREATNESS</a>
+            </li>
+            <li><a href="#" onclick="showContent('Photos/R.png', 'Text for Image 3')">WARRIOR</a></li>
+            <!-- Add more navigation items as needed -->
+        </ul>
+    </nav>
+    <main>
+        <section class="image-info" id="image-info">
+            <img src="Photos/maxresdefault.jpg" alt="Image" id="displayed-image">
+            <p id="displayed-text">Your text info goes here.</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
 </html>

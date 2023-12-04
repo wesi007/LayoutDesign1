@@ -5,26 +5,29 @@ body {
 }
 
 header {
-    text-align: center;
-    background-color: #333;
+    background-color: maroon;
     color: #fff;
-    padding: 10px;
+    padding: 50px;
 }
 
 .logo img {
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 200px;
+    max-height: 200px;
+
 }
 
 h1 {
     margin: 0;
+    color: black;
+    text-align: center;
 }
+
 nav {
     background-color: #444;
     color: #fff;
     padding: 10px;
     text-align: center;
-     
+
 }
 
 ul {
@@ -51,6 +54,7 @@ main {
     justify-content: space-around;
     padding: 20px;
 }
+
 .image-info img {
     max-width: 100%;
     height: auto;
