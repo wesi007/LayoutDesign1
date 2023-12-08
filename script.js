@@ -1,8 +1,8 @@
 function showContent(imageSrc, text) {
 
 
-    // Update the image and text in the other side
-    let imageInfo = document.getElementById('image-info');
+
+    var imageInfo = document.getElementById('image-info');
     console.log(text);
 
 
