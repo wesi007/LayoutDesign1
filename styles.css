@@ -101,7 +101,7 @@ main {
 .image-info img {
     flex: 2;
     max-width: 100%;
-    height: auto;
+    height: 50%;
     flex: 70%;
    
 
@@ -109,4 +109,6 @@ main {
     text-align: center;
     color: black;
     flex: 30%;
+    max-height: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Change the font here */
 }
