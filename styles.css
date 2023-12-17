@@ -35,19 +35,27 @@ nav {
     text-align: center;
     flex: 1;
 
+
 }
 
 ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    flex-grow: 1;
+    display: flexbox;
+    flex-direction: row;
+    margin-right: 100vh;
+    transition: background-color 0.3s;
+    
+    
 
     
 }
 
 li {
-    margin-right: 20px;
+    margin-right: 50vh;
+   border: 1px solid purple; /* Border Added */ 
+    
 }
 
 a {
